@@ -1,0 +1,191 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    display: grid;
+    place-items: center;
+}
+.grid{
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: 1fr 1fr;
+    gap: 5px;
+    display: grid;
+    width: 100%;
+    height: 100vh;
+}
+.one{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    display: grid;
+    place-items: center;
+    border: 4px solid green;
+}
+.two{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: grid;
+    place-items: center;
+    border: 4px solid green;
+}
+.three{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    display: grid;
+    place-items: center;
+    border: 4px solid green;
+}
+.four{
+    grid-column: 4/5;
+    grid-row: 1/2;
+    display: grid;
+    place-items: center;
+    border: 4px solid green;
+}
+.five{
+    grid-column: 5/6;
+    grid-row: 1/2;
+    display: grid;
+    place-items: center;
+    border: 4px solid green;
+}
+.six{
+    grid-column: 6/7;
+    grid-row: 1/2;
+    display: grid;
+    place-items: center;
+    border: 4px solid blue;
+    /* grid-template-columns: repeat(3, 8.7vw);
+    grid-template-rows: repeat(2, 23vh);
+    gap: 1vh; */
+}
+.seven{
+    grid-column: 7/8;
+    grid-row: 1/2;
+    display: grid;
+    place-items: center;
+    border: 4px solid blue;
+}
+.eight{
+    grid-column: 8/9;
+    grid-row: 1/2;
+    display: grid;
+    place-items: center;
+    border: 4px solid blue;
+}
+.nine{
+    grid-column: 9/10;
+    grid-row: 1/2;
+    display: grid;
+    place-items: center;
+    border: 4px solid blue;
+}
+.ten{
+    grid-column: 10/11;
+    grid-row: 1/2;
+    display: grid;
+    place-items: center;
+    border: 4px solid blue;
+}
+.eleven{
+    grid-column: 11/12;
+    grid-row: 1/2;
+    display: grid;
+    place-items: center;
+    border: 4px solid red;
+}
+.twelve{
+    grid-column: 12/13;
+    grid-row: 1/2;
+    display: grid;
+    place-items: center;
+    border: 4px solid red;
+}
+.one1{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    display: grid;
+    place-items: center;
+    border: 4px solid red;
+}
+.two2{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    display: grid;
+    place-items: center;
+    border: 4px solid red;
+}
+.three3{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    display: grid;
+    place-items: center;
+    border: 4px solid red;
+}
+.four4{
+    grid-column: 4/5;
+    grid-row: 2/3;
+    display: grid;
+    place-items: center;
+    border: 4px solid yellow;
+}
+.five5{
+    grid-column: 5/6;
+    grid-row: 2/3;
+    display: grid;
+    place-items: center;
+    border: 4px solid yellow;
+}
+.six6{
+    grid-column: 6/7;
+    grid-row: 2/3;
+    display: grid;
+    place-items: center;
+    border: 4px solid yellow;
+}
+.seven7{
+    grid-column: 7/8;
+    grid-row: 2/3;
+    display: grid;
+    place-items: center;
+    border: 4px solid yellow;
+}
+.eight8{
+    grid-column: 8/9;
+    grid-row: 2/3;
+    display: grid;
+    place-items: center;
+    border: 4px solid yellow;
+}
+.nine9{
+    grid-column: 9/10;
+    grid-row: 2/3;
+    display: grid;
+    place-items: center;
+    border: 4px solid violet;
+}
+.ten10{
+    grid-column: 10/11;
+    grid-row: 2/3;
+    display: grid;
+    place-items: center;
+    border: 4px solid violet;
+}
+.eleven11{
+    grid-column: 11/12;
+    grid-row: 2/3;
+    display: grid;
+    place-items: center;
+    border: 4px solid violet;
+}
+.twelve12{
+    grid-column: 12/13;
+    grid-row: 2/3;
+    display: grid;
+    place-items: center;
+    border: 4px solid violet;
+}
+.grid div{
+    font-size: 26px;
+
+}
